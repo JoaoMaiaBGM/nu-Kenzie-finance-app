@@ -1,0 +1,234 @@
+.form-transaction {
+  width: 22.5rem;
+  height: 21.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.form-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #212529;
+  text-align: start;
+}
+
+.form-description {
+  width: 19rem;
+  height: 3rem;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  font-family: sans-serif;
+  color: #868e96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 155ms;
+}
+
+.form-description:hover {
+  background: #ffffff;
+  border: 2px solid #212529;
+  border-radius: 8px;
+}
+
+.form-description-example {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #868e96;
+  text-align: start;
+}
+
+.form-labels {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-align: start;
+  color: #212529;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form-value {
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: #868e96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  align-items: center;
+  text-align: justify;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 155ms;
+}
+
+.form-value:hover {
+  background: #f8f9fa;
+  border: 1.2px solid #212529;
+  border-radius: 8px;
+}
+
+.form-option {
+  width: 9rem;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  color: #868e96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 155ms;
+}
+
+.form-option:hover {
+  background: #f8f9fa;
+  border: 1.2px solid #212529;
+  border-radius: 8px;
+}
+
+.option-income {
+  width: 11.5rem;
+  height: 4rem;
+  background: #f8f9fa;
+  box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.option-income:hover {
+  background: #e9ecef;
+}
+
+.option-exit {
+  width: 8rem;
+  height: 4.4rem;
+  background: #f8f9fa;
+  box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.form-btn {
+  width: 19rem;
+  height: 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 144ms;
+}
+
+.form-btn:hover {
+  background-color: #fd378098;
+}
+
+@media screen and (max-width: 426px) {
+  .form-transaction {
+    width: 90vw;
+  }
+
+  .form-title {
+    font-size: 0.8rem;
+  }
+
+  .form-description {
+    width: 16rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+
+  .form-description-example {
+    font-size: 0.75rem;
+  }
+
+  .form-value {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .form-option {
+    width: 9rem;
+    height: 2.3rem;
+    font-size: 0.8rem;
+  }
+
+  .form-btn {
+    width: 18rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .form-transaction {
+    width: 40vw;
+  }
+
+  .form-title {
+    font-size: 0.8rem;
+  }
+
+  .form-description {
+    width: 17rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+
+  .form-description-example {
+    font-size: 0.75rem;
+  }
+
+  .form-value {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .form-option {
+    width: 9rem;
+    height: 2.3rem;
+    font-size: 0.8rem;
+  }
+}

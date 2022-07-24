@@ -1,0 +1,171 @@
+.transaction-list {
+  width: 35rem;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.transaction-list-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  height: 2rem;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #212529;
+}
+
+.transaction-list-title {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  color: #343a40;
+}
+
+.menu-navegation {
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter {
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.87rem;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.filter:hover {
+  text-decoration: underline solid 2px #343a40;
+}
+
+.--todos {
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #fd377e;
+  border: 1.4px solid #fd377e;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.87rem;
+  color: #ffffff;
+  transition: 144ms;
+}
+
+.--todos:hover {
+  background: #fd378098;
+  text-decoration: underline solid 2px #fd377e;
+}
+
+@media screen and (max-width: 426px) {
+  .transaction-list {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .transaction-list-header {
+    width: 95vw;
+    height: 2.5rem;
+  }
+
+  .header-title {
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .filter {
+    height: 1.5rem;
+    font-size: 0.6rem;
+  }
+
+  .--todos {
+    color: #ffffff;
+  }
+
+  .transaction-list-title {
+    width: 95vw;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #343a40;
+  }
+
+  .no-Card {
+    width: 20rem;
+    height: 13rem;
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .transaction-list {
+    width: 50vw;
+  }
+
+  .transaction-list-header {
+    width: 45vw;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-title {
+    height: 2rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    color: #212529;
+  }
+
+  .filter {
+    height: 1.5rem;
+    font-size: 0.6rem;
+  }
+
+  .--todos {
+    color: #ffffff;
+  }
+
+  .transaction-list-title {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: #343a40;
+  }
+
+  .no-Card {
+    width: 23rem;
+    height: 13rem;
+  }
+} */

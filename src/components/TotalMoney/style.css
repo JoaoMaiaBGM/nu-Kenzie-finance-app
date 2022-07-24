@@ -1,0 +1,53 @@
+.total-container {
+  width: 26.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.total-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.total-info-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #212529;
+}
+
+.total-info-paragraph {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #343a40;
+}
+
+.total-sum {
+  display: flex;
+  align-items: flex-start;
+}
+
+.total-sum-paragraph {
+  width: 100px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fd377e;
+}
+
+@media screen and (max-width: 426px) {
+  .total-container {
+    width: 90vw;
+    margin-bottom: 1rem;
+  }
+}
